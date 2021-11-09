@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "BOILERPLATE",
+    "description": "BOILERPLATE",
+    "version": "1.0.0",
+    "content_scripts": [{
+        "matches": ["https://dev.azure.com/*"],
+        "js": ["Main.js"]}
+    ],
+    "icons": { 
+        "16": "icon.png",
+        "48": "icon.png",
+       "128": "icon.png" 
+    }
+}
